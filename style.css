@@ -1,0 +1,46 @@
+* {
+    margin-top: 0px;
+    padding: 0px;
+    max-width: 100%;
+
+}
+
+body {
+    display: block;
+    margin: 5px;
+
+}
+
+table {
+    border-spacing: 10px;
+    margin: auto;
+}
+
+td {
+    background-color: springgreen;
+    color: orangered;
+    padding: 40px;
+    border: 6px solid orangered;
+    width: 80px;
+    height: 80px; 
+    box-sizing:  border-box;    
+   
+}
+
+td:nth-child(even) {
+    background: orangered;
+    border: 6px solid springgreen; 
+}
+ 
+div table td {
+        background:orangered ;
+        border: 6px solid springgreen;
+        width: 80px;
+        height: 80px; 
+        box-sizing: border-box;
+}
+
+div table td:nth-child(even) {
+    background: springgreen;
+    border: 6px solid orangered;
+}
